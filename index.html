@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solar System | By Kamal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🌌 STARFIELD -->
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+
+  <!-- 🌟 NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🚀 Kamal’s Solar Explorer</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#solar-system">Solar System</a></li>
+      <li><a href="#planets">Planets</a></li>
+      <li><a href="#facts">Facts</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🌞 HERO SECTION -->
+  <section id="home" class="hero-section">
+    <header class="header">
+      <h1>🌞 Explore The Solar System 🌍</h1>
+      <p>Learn about each planet in our cosmic neighborhood.</p>
+    </header>
+  </section>
+
+  <!-- 🪐 SOLAR SYSTEM SECTION -->
+  <main id="solar-system" class="solar-system-container">
+    <div class="solar-system">
+      <div id="sun" class="sun"></div>
+
+      <div class="orbit mercury"><div id="mercury" class="planet mercury"></div></div>
+      <div class="orbit venus"><div id="venus" class="planet venus"></div></div>
+      <div class="orbit earth"><div id="earth" class="planet earth"></div></div>
+      <div class="orbit mars"><div id="mars" class="planet mars"></div></div>
+      <div class="orbit jupiter"><div id="jupiter" class="planet jupiter"></div></div>
+      <div class="orbit saturn"><div id="saturn" class="planet saturn"></div></div>
+      <div class="orbit uranus"><div id="uranus" class="planet uranus"></div></div>
+      <div class="orbit neptune"><div id="neptune" class="planet neptune"></div></div>
+    </div>
+  </main>
+
+  <!-- 🌍 PLANETS GRID SECTION -->
+  <section id="planets" class="content-section planets-grid">
+    <h2>🪐 The Planets</h2>
+    <p>Each planet is unique — from Mercury’s blazing heat to Neptune’s icy winds.</p>
+
+    <div class="planet-cards">
+      <div class="card">Mercury</div>
+      <div class="card">Venus</div>
+      <div class="card">Earth</div>
+      <div class="card">Mars</div>
+      <div class="card">Jupiter</div>
+      <div class="card">Saturn</div>
+      <div class="card">Uranus</div>
+      <div class="card">Neptune</div>
+    </div>
+  </section>
+
+  <!-- 🌠 FUN FACTS SECTION -->
+  <section id="facts" class="content-section facts-section">
+    <h2>🌌 Amazing Space Facts</h2>
+    <ul>
+      <li>🌞 The Sun contains 99.86% of the Solar System’s mass.</li>
+      <li>🌍 Earth is the only planet not named after a god.</li>
+      <li>🪐 Jupiter’s Great Red Spot is over 300 years old.</li>
+      <li>💫 Saturn could float in water — it’s that light!</li>
+      <li>🚀 Neptune’s winds blow faster than the speed of sound.</li>
+    </ul>
+  </section>
+
+  <!-- 🛰️ FOOTER -->
+  <footer class="footer">
+    <p>Designed by <strong>Kamal Behera</strong> | © 2025 Solar Explorer</p>
+  </footer>
+
+  <!-- 🪐 POPUP -->
+  <div id="planet-popup" class="popup-container">
+    <div class="popup-content">
+      <span class="close-popup">&times;</span>
+      <h2 id="planet-name">Click a planet to learn more</h2>
+      <p id="planet-desc"></p>
+      <ul id="planet-details"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
